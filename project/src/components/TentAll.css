@@ -1,0 +1,74 @@
+/* SingleTent */
+.single-tent-container {
+    width: 80vw;
+    margin: 2rem auto;
+    color: rgb(0, 0, 0, 0.7);
+    line-height: 1.5rem;
+}
+
+.image-display-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+}
+
+.image-display-container img {
+    width: 90%;
+    display: block; 
+    /* transition: all 0.2s ease-out; */
+}
+
+.description-container {
+    margin: 2rem 0;
+}
+
+.single-tent-container h3 {
+    margin-bottom: 0.5rem;
+}
+
+.rest-text-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.features {
+    text-indent: 1.2rem;
+}
+
+
+/* TentList */
+.tents-list-container {
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+}
+
+
+/* TentsContainer */
+.tents-page-container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.filter-container {
+    margin-bottom: 2rem;
+}
+
+.filter-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    text-align: center;
+}
+
+.tent-form-div {
+    padding: 0.7rem 0;
+}
+
+.tent-form-div label, .checkbox-div input {
+    margin-right: 0.5rem;
+}
+
+.weight-form-div input {
+    width: 70px;
+    text-align: center;
+}

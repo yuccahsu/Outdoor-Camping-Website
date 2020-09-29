@@ -1,0 +1,63 @@
+/* For BannerBG.js */
+.defaultBannerBG, .tentsBannerBG {
+    min-height: calc(100vh - 66px);
+    background: url("../images/BannerBG-home.jpg") left/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tentsBannerBG {
+    background: url(../images/BannerBG-bags.jpg) bottom/cover no-repeat;
+    min-height: calc(100vh - 66px);
+}
+
+/* For Banner.js */
+.banner {
+    display: inline-block;
+    background: rgb(0, 0, 0, 0.5);
+    height: 18rem;
+    color: antiquewhite;
+    text-align: center;
+    padding: 3rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.1rem;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.banner p {
+    padding-bottom: 1.5em;
+    font-size: 1.5rem;
+}
+
+.banner div {
+    height: 5px;
+    width: 35rem;
+    margin: 0.5rem auto;
+    background-color: antiquewhite;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 0.1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.btn-primary:hover {
+    background: none;
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+}
+
+
